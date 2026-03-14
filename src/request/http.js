@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = 'https://azurstatsdata.lyoko.io/data/';
+axios.defaults.baseURL = 'https://alas-statsapi.nanoda.work/data/';
 axios.defaults.timeout = 10000;
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';
 
